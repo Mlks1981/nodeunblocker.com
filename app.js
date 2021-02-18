@@ -1,3 +1,4 @@
+
 /***************
  * node-unblocker: Web Proxy for evading firewalls and content filters,
  * similar to CGIProxy or PHProxy
@@ -48,7 +49,6 @@ function googleAnalyticsMiddleware(data) {
                 this.push(addGa(chunk.toString()));
                 next();
             }
-}
         }));
     }
 }
